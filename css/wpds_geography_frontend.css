@@ -1,0 +1,49 @@
+.wpds_geography_list_marker {
+    border: 0;
+}
+.wpds_geography_list_marker_item {
+    border: 0;
+}
+.wpds_geography_list_marker_icon {
+    border: 0;
+    border-bottom: 1px solid #EEEEEE;
+    width: 35px;
+}
+.wpds_geography_list_marker_name_and_popup {
+    border: 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.wpds_geography_list_marker_name {
+    font-weight: bold;
+ }
+.wpds_geography_list_marker_name a {
+    text-decoration: none;
+    border-bottom: 1px dashed #007236;
+}
+.wpds_geography_list_marker_popuptext {
+    margin-top: 5px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 30px;
+}
+.wpds_geography_list_marker_date {
+    border: 0;
+    border-bottom: 1px solid #EEEEEE; 
+}
+.wpds_geography_list_marker_date_string {
+    white-space: nowrap;
+    font-size: x-small;
+}
+.wpds_geography_list_marker_author {
+    border: 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.wpds_geography_edit_panel {
+    width: 16px;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 10px;
+}

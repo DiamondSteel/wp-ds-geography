@@ -1,0 +1,1107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP DS Geography v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-04 07:32:09+0000\n"
+"Last-Translator: diamondsteel <dim@diamondsteel.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: WPDSGeographyBackend.class.php:25
+#: WPDSOptions.class.php:576
+#@ wp-ds-geography
+msgid "Geography"
+msgstr "География"
+
+#: WPDSGeographyBackend.class.php:26
+#@ wp-ds-geography
+msgid "All markers"
+msgstr "Все маркеры"
+
+#: WPDSAddAndEditLayer.class.php:642
+#: WPDSAddAndEditMarker.class.php:286
+#: WPDSGeographyBackend.class.php:27
+#: template-list-markers.php:8
+#@ wp-ds-geography
+msgid "Add new marker"
+msgstr "Добавить новый маркер"
+
+#: WPDSGeographyBackend.class.php:28
+#@ wp-ds-geography
+msgid "All layers"
+msgstr "Все слои"
+
+#: WPDSGeographyBackend.class.php:29
+#@ wp-ds-geography
+msgid "Add new layers"
+msgstr "Добавить новый слой"
+
+#: WPDSGeographyBackend.class.php:52
+#: WPDSOptions.class.php:19
+#: template-list-markers.php:7
+#@ wp-ds-geography
+msgid "Markers"
+msgstr "Маркеры"
+
+#: WPDSListTable.class.php:191
+#@ default
+msgid "No items found."
+msgstr ""
+
+#: WPDSListTable.class.php:315
+#@ default
+msgid "Bulk Actions"
+msgstr ""
+
+#: WPDSListTable.class.php:325
+#@ default
+msgid "Apply"
+msgstr ""
+
+#: WPDSListTable.class.php:409
+#@ default
+msgid "Show all dates"
+msgstr ""
+
+#. translators: 1: month name, 2: 4-digit year
+#: WPDSListTable.class.php:422
+#, php-format
+#@ default
+msgid "%1$s %2$d"
+msgstr ""
+
+#: WPDSListTable.class.php:438
+#@ default
+msgid "List View"
+msgstr ""
+
+#: WPDSListTable.class.php:439
+#@ default
+msgid "Excerpt View"
+msgstr ""
+
+#: WPDSListTable.class.php:465
+#, php-format
+#@ default
+msgid "%s pending"
+msgstr ""
+
+#: WPDSListTable.class.php:533
+#: WPDSListTable.class.php:948
+#, php-format
+#@ default
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: WPDSListTable.class.php:551
+#@ default
+msgid "Go to the first page"
+msgstr ""
+
+#: WPDSListTable.class.php:558
+#@ default
+msgid "Go to the previous page"
+msgstr ""
+
+#: WPDSListTable.class.php:567
+#@ default
+msgid "Current page"
+msgstr ""
+
+#: WPDSListTable.class.php:573
+#, php-format
+#@ default
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: WPDSListTable.class.php:577
+#@ default
+msgid "Go to the next page"
+msgstr ""
+
+#: WPDSListTable.class.php:584
+#@ default
+msgid "Go to the last page"
+msgstr ""
+
+#: WPDSListTable.class.php:720
+#@ default
+msgid "Select All"
+msgstr ""
+
+#: WPDSListTableForListMarkers.class.php:159
+#: WPDSListTableForListMarkersAtLayer.class.php:38
+#@ wp-ds-geography
+msgid "It's empty. Try to add a marker."
+msgstr "Здесь пусто. Попробуйте добавить маркер."
+
+#: WPDSListTableForListMarkers.class.php:29
+#: WPDSListTableForListMarkersAtLayer.class.php:25
+#@ wp-ds-geography
+msgid "marker"
+msgstr "маркер"
+
+#: WPDSListTableForListMarkers.class.php:30
+#: WPDSListTableForListMarkersAtLayer.class.php:26
+#@ wp-ds-geography
+msgid "markers"
+msgstr "маркеры"
+
+#: WPDSListTableForListMarkers.class.php:184
+#: WPDSListTableForListMarkersAtLayer.class.php:48
+#@ wp-ds-geography
+msgid "Marker Name"
+msgstr "Название"
+
+#: WPDSListTableForListMarkers.class.php:185
+#: WPDSListTableForListMarkersAtLayer.class.php:49
+#@ wp-ds-geography
+msgid "Layer"
+msgstr "Слой"
+
+#: WPDSListTableForListMarkers.class.php:186
+#: WPDSListTableForListMarkersAtLayer.class.php:50
+#@ wp-ds-geography
+msgid "Icon"
+msgstr "Иконка"
+
+#: WPDSListTableForListLayers.class.php:195
+#: WPDSListTableForListMarkers.class.php:189
+#@ wp-ds-geography
+msgid "Shortcode"
+msgstr "Короткий код"
+
+#: WPDSListTableForListLayers.class.php:237
+#: WPDSListTableForListMarkers.class.php:214
+#: WPDSListTableForListMarkersAtLayer.class.php:66
+#@ default
+msgid "Edit"
+msgstr ""
+
+#: WPDSAddAndEditLayer.class.php:475
+#: WPDSAddAndEditMarker.class.php:417
+#: WPDSListTableForListLayers.class.php:238
+#: WPDSListTableForListLayers.class.php:291
+#: WPDSListTableForListMarkers.class.php:215
+#: WPDSListTableForListMarkers.class.php:300
+#@ default
+msgid "Delete"
+msgstr ""
+
+#: template-list-layers.php:11
+#: template-list-markers.php:11
+#, php-format
+#@ default
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: template-list-layers.php:18
+#: template-list-markers.php:18
+#@ default
+msgid "Search"
+msgstr ""
+
+#: WPDSAddAndEditLayer.class.php:484
+#: WPDSAddAndEditMarker.class.php:440
+#: template-the-layer.php:14
+#: template-the-marker.php:14
+#@ default
+msgid "Publish"
+msgstr ""
+
+#: WPDSAddAndEditLayer.class.php:488
+#: WPDSAddAndEditMarker.class.php:444
+#@ default
+msgid "Update"
+msgstr ""
+
+#: WPDSAddAndEditMarker.class.php:283
+#@ wp-ds-geography
+msgid "Add Marker"
+msgstr "Добавить маркер"
+
+#: WPDSOptions.class.php:462
+#: template-the-layer.php:34
+#: template-the-marker.php:34
+#@ wp-ds-geography
+msgid "Map settings"
+msgstr "Настройки карты"
+
+#: WPDSAddAndEditMarker.class.php:296
+#@ wp-ds-geography
+msgid "This marker hasn’t been published yet."
+msgstr "Этот маркер еще не опубликован."
+
+#: WPDSOptions.class.php:396
+#: WPDSOptions.class.php:464
+#: template-the-layer.php:37
+#: template-the-marker.php:37
+#@ wp-ds-geography
+msgid "Width:"
+msgstr "Ширина:"
+
+#: WPDSOptions.class.php:399
+#: WPDSOptions.class.php:467
+#: template-the-layer.php:40
+#: template-the-marker.php:40
+#@ wp-ds-geography
+msgid "Height:"
+msgstr "Высота:"
+
+#: WPDSOptions.class.php:400
+#: WPDSOptions.class.php:471
+#: template-the-layer.php:44
+#: template-the-marker.php:42
+#@ wp-ds-geography
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: template-the-layer.php:54
+#: template-the-marker.php:43
+#@ wp-ds-geography
+msgid "Map source:"
+msgstr "Поставщик карт:"
+
+#: WPDSOptions.class.php:323
+#@ wp-ds-geography
+msgid "OpenStreetMap"
+msgstr ""
+
+#: WPDSGeographyBackend.class.php:155
+#: WPDSOptions.class.php:20
+#: template-list-layers.php:7
+#: template-the-marker.php:49
+#@ wp-ds-geography
+msgid "Layers"
+msgstr "Слои"
+
+#: template-the-marker.php:51
+#@ wp-ds-geography
+msgid "Marker can be tied to a layer:"
+msgstr "Маркер можно привязать к слою:"
+
+#: WPDSAddAndEditLayer.class.php:548
+#: WPDSAddAndEditLayer.class.php:554
+#: WPDSAddAndEditLayer.class.php:576
+#: WPDSAddAndEditMarker.class.php:520
+#@ wp-ds-geography
+msgid "No available layers"
+msgstr "Нет доступных слоёв"
+
+#: WPDSAddAndEditMarker.class.php:502
+#: WPDSAddAndEditMarker.class.php:511
+#@ wp-ds-geography
+msgid "Layer is not selected"
+msgstr "Слой не выбран"
+
+#: template-the-marker.php:63
+#@ wp-ds-geography
+msgid "Enter the name of the marker"
+msgstr "Введите название маркера"
+
+#: template-the-layer.php:79
+#: template-the-marker.php:68
+#@ wp-ds-geography
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: template-the-layer.php:83
+#: template-the-marker.php:72
+#@ wp-ds-geography
+msgid "Choose location on map or input address"
+msgstr "Выберите место на карте или введите адрес"
+
+#: template-the-marker.php:78
+#@ wp-ds-geography
+msgid "Marker settings"
+msgstr "Настройки маркера"
+
+#: template-the-marker.php:80
+#@ wp-ds-geography
+msgid "Coordinates"
+msgstr "Координаты"
+
+#: WPDSOptions.class.php:409
+#: WPDSOptions.class.php:478
+#: template-the-layer.php:46
+#: template-the-marker.php:82
+#@ wp-ds-geography
+msgid "Latitude:"
+msgstr "Широта:"
+
+#: WPDSOptions.class.php:410
+#: WPDSOptions.class.php:479
+#: template-the-layer.php:47
+#: template-the-marker.php:83
+#@ wp-ds-geography
+msgid "Longitude:"
+msgstr "Долгота:"
+
+#: WPDSOptions.class.php:426
+#: WPDSOptions.class.php:519
+#: template-the-marker.php:85
+#@ wp-ds-geography
+msgid "Flag"
+msgstr "Иконка"
+
+#: WPDSOptions.class.php:18
+#: WPDSOptions.class.php:423
+#: WPDSOptions.class.php:520
+#: template-the-marker.php:91
+#@ wp-ds-geography
+msgid "Popup window"
+msgstr "Всплывающее окно"
+
+#: template-the-marker.php:93
+#@ wp-ds-geography
+msgid "Display options"
+msgstr "Настройки отображения"
+
+#: WPDSOptions.class.php:424
+#: template-the-marker.php:94
+#@ wp-ds-geography
+msgid "Open popup window"
+msgstr "Открыть всплывающее окно"
+
+#: WPDSOptions.class.php:424
+#: template-the-marker.php:94
+#@ wp-ds-geography
+msgid "If unchecked, the popup window will be shown only after marker is clicked."
+msgstr "Если не отмечено, всплывающее окно будет показано только после клика на маркере."
+
+#: template-the-marker.php:96
+#@ wp-ds-geography
+msgid "Text in a popup window"
+msgstr "Текст во всплывающем окне"
+
+#: template-the-marker.php:248
+#: template-the-marker.php:254
+#@ wp-ds-geography
+msgid "available after marker publication"
+msgstr "доступно после публикации маркера"
+
+#: template-the-marker.php:248
+#@ wp-ds-geography
+msgid "Marker name"
+msgstr "Название маркера"
+
+#: template-the-marker.php:254
+#@ wp-ds-geography
+msgid "Popup message text"
+msgstr "Текст всплывающего сообщения"
+
+#: WPDSAddAndEditLayer.class.php:367
+#: WPDSAddAndEditMarker.class.php:309
+#@ wp-ds-geography
+msgid "Created:"
+msgstr "Создано:"
+
+#: WPDSAddAndEditLayer.class.php:373
+#: WPDSAddAndEditMarker.class.php:315
+#@ wp-ds-geography
+msgid "Modified:"
+msgstr "Изменено:"
+
+#: WPDSAddAndEditMarker.class.php:286
+#@ wp-ds-geography
+msgid "Edit Marker"
+msgstr "Редактировать маркер"
+
+#: WPDSListTableForListLayers.class.php:194
+#: WPDSListTableForListMarkers.class.php:188
+#: WPDSListTableForListMarkersAtLayer.class.php:52
+#@ wp-ds-geography
+msgid "Created by"
+msgstr "Создал"
+
+#: WPDSListTableForListLayers.class.php:193
+#: WPDSListTableForListMarkers.class.php:187
+#: WPDSListTableForListMarkersAtLayer.class.php:51
+#@ wp-ds-geography
+msgid "Created on"
+msgstr "Дата создания"
+
+#: WPDSOptions.class.php:15
+#@ wp-ds-geography
+msgid "Permissions"
+msgstr "Права доступа"
+
+#: WPDSOptions.class.php:16
+#@ wp-ds-geography
+msgid "Maps"
+msgstr "Карты"
+
+#: WPDSOptions.class.php:22
+#@ wp-ds-geography
+msgid "Reset"
+msgstr "Сброс"
+
+#: WPDSOptions.class.php:23
+#@ wp-ds-geography
+msgid "About"
+msgstr "О плагине"
+
+#: index.php:253
+#@ default
+msgid "Settings"
+msgstr ""
+
+#: WPDSOptions.class.php:576
+#: template-wpds-options.php:4
+#@ wp-ds-geography
+msgid "Geography settings"
+msgstr "География, настройки"
+
+#: WPDSOptions.class.php:183
+#@ wp-ds-geography
+msgid "Setting permissions"
+msgstr "Настройка прав доступа"
+
+#: WPDSOptions.class.php:204
+#@ wp-ds-geography
+msgid "Editing and deleting markers and layers created by another user"
+msgstr "Редактирование и удаление маркеров и слоёв созданных другими пользователями"
+
+#: WPDSOptions.class.php:191
+#@ wp-ds-geography
+msgid "Adding new, editing and deleting your markers and layers"
+msgstr "Добавление новых, редактирование и удаление своих маркеров и слоёв"
+
+#: WPDSOptions.class.php:192
+#: WPDSOptions.class.php:205
+#@ wp-ds-geography
+msgid "Administrator"
+msgstr "Администратор"
+
+#: WPDSOptions.class.php:193
+#: WPDSOptions.class.php:206
+#@ wp-ds-geography
+msgid "Editor"
+msgstr "Редактор"
+
+#: WPDSOptions.class.php:194
+#: WPDSOptions.class.php:207
+#: WPDSOptions.class.php:523
+#@ wp-ds-geography
+msgid "Author"
+msgstr "Автор"
+
+#: WPDSOptions.class.php:195
+#: WPDSOptions.class.php:208
+#@ wp-ds-geography
+msgid "Contributor"
+msgstr "Участник"
+
+#: WPDSOptions.class.php:196
+#: WPDSOptions.class.php:209
+#@ wp-ds-geography
+msgid "Subscriber"
+msgstr "Подписчик"
+
+#: WPDSOptions.class.php:219
+#@ wp-ds-geography
+msgid "Settings map interaction"
+msgstr "Настройки взаимодействия с картой"
+
+#: WPDSOptions.class.php:220
+#: WPDSOptions.class.php:320
+#@ wp-ds-geography
+msgid "These settings will be used for all maps."
+msgstr "Эти настройки будут использоваться для всех карт."
+
+#: WPDSOptions.class.php:369
+#@ wp-ds-geography
+msgid "These settings will be used for all popup windows."
+msgstr "Эти настройки будут использоваться для всех всплывающих окон."
+
+#: WPDSAddAndEditLayer.class.php:341
+#@ wp-ds-geography
+msgid "Add Layer"
+msgstr "Добавить слой"
+
+#: WPDSAddAndEditLayer.class.php:344
+#@ wp-ds-geography
+msgid "Edit Layer"
+msgstr "Редактировать слой"
+
+#: WPDSAddAndEditLayer.class.php:344
+#: WPDSGeographyBackend.class.php:29
+#: template-list-layers.php:8
+#@ wp-ds-geography
+msgid "Add new layer"
+msgstr "Добавить новый слой"
+
+#: WPDSAddAndEditLayer.class.php:354
+#@ wp-ds-geography
+msgid "This layer hasn’t been published yet."
+msgstr "Этот слой еще не опубликован."
+
+#: WPDSListTableForListLayers.class.php:29
+#@ wp-ds-geography
+msgid "layer"
+msgstr "слой"
+
+#: WPDSListTableForListLayers.class.php:30
+#@ wp-ds-geography
+msgid "layers"
+msgstr "слои"
+
+#: WPDSListTableForListLayers.class.php:167
+#@ wp-ds-geography
+msgid "It's empty. Try to add a layer."
+msgstr "Здесь пусто. Попробуйте добавить слой."
+
+#: WPDSListTableForListLayers.class.php:191
+#@ wp-ds-geography
+msgid "Type"
+msgstr "Тип"
+
+#: WPDSListTableForListLayers.class.php:192
+#@ wp-ds-geography
+msgid "Layer Name"
+msgstr "Название"
+
+#: WPDSOptions.class.php:470
+#: template-the-layer.php:43
+#@ wp-ds-geography
+msgid "Set the scale and center of the map"
+msgstr "Задайте масштаб и центр карты"
+
+#: WPDSOptions.class.php:481
+#: template-the-layer.php:50
+#@ wp-ds-geography
+msgid "fit bounds"
+msgstr "автоматически подогнать границы"
+
+#: template-the-layer.php:74
+#@ wp-ds-geography
+msgid "Enter the name of the layer"
+msgstr "Введите название слоя"
+
+#: WPDSOptions.class.php:480
+#: template-the-layer.php:49
+#@ wp-ds-geography
+msgid "or you can"
+msgstr "или можно"
+
+#: WPDSOptions.class.php:17
+#: WPDSOptions.class.php:412
+#: WPDSOptions.class.php:487
+#@ wp-ds-geography
+msgid "Map source"
+msgstr "Поставщик карт"
+
+#: WPDSOptions.class.php:353
+#@ wp-ds-geography
+msgid "2GIS"
+msgstr ""
+
+#: WPDSOptions.class.php:330
+#@ wp-ds-geography
+msgid "Yandex"
+msgstr ""
+
+#: WPDSOptions.class.php:340
+#@ wp-ds-geography
+msgid "Google"
+msgstr ""
+
+#: template-the-layer.php:60
+#@ wp-ds-geography
+msgid "Multilayer map"
+msgstr "Многослойная карта"
+
+#: template-the-layer.php:62
+#@ wp-ds-geography
+msgid "Display markers other layers in this map"
+msgstr "Отобразить маркеры других слоев на этой карте"
+
+#: WPDSOptions.class.php:484
+#: template-the-layer.php:52
+#@ wp-ds-geography
+msgid "Group markers"
+msgstr "Группировать маркеры"
+
+#: WPDSOptions.class.php:485
+#: template-the-layer.php:53
+#@ wp-ds-geography
+msgid "Show markers list under the map"
+msgstr "Показать список маркеров под картой"
+
+#: WPDSAddAndEditLayer.class.php:641
+#@ wp-ds-geography
+msgid "Markers are shown on this map"
+msgstr "Маркеры, отображённые на этой карте"
+
+#: WPDSOptions.class.php:532
+#@ wp-ds-geography
+msgid "Reset settings"
+msgstr "Сброс настроек"
+
+#: WPDSOptions.class.php:534
+#@ wp-ds-geography
+msgid "Restore Defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#: WPDSOptions.class.php:542
+#@ wp-ds-geography
+msgid "About plugin"
+msgstr "О плагине"
+
+#: WPDSOptions.class.php:543
+#@ wp-ds-geography
+msgid "Used services, technology and image"
+msgstr "Используемые службы, технологии и изображения"
+
+#: WPDSOptions.class.php:558
+#@ wp-ds-geography
+msgid "Authors and Contributors"
+msgstr "Авторы и участники проекта"
+
+#: WPDSOptions.class.php:459
+#@ wp-ds-geography
+msgid "Default settings for the new layer"
+msgstr "Настройки по умолчанию для нового слоя"
+
+#: WPDSOptions.class.php:392
+#@ wp-ds-geography
+msgid "Default settings for the new marker"
+msgstr "Настройки по умолчанию для нового маркера"
+
+#: WPDSOptions.class.php:460
+#@ wp-ds-geography
+msgid "These settings can be adjusted individually for each layer."
+msgstr "Эти настройки могут быть изменены индивидуально для каждого слоя."
+
+#: WPDSOptions.class.php:393
+#@ wp-ds-geography
+msgid "These settings can be adjusted individually for each marker."
+msgstr "Эти настройки могут быть изменены индивидуально для каждого маркера."
+
+#: WPDSOptions.class.php:408
+#@ wp-ds-geography
+msgid "Original coordinates"
+msgstr "Начальные координаты"
+
+#: WPDSOptions.class.php:395
+#@ wp-ds-geography
+msgid "Map size"
+msgstr "Размер карты"
+
+#: WPDSOptions.class.php:21
+#@ wp-ds-geography
+msgid "Markers list"
+msgstr "Список маркеров"
+
+#: WPDSOptions.class.php:507
+#@ wp-ds-geography
+msgid "Settings markers list"
+msgstr "Настройки списка маркеров"
+
+#: WPDSOptions.class.php:508
+#@ wp-ds-geography
+msgid "These settings will be used for all markers list."
+msgstr "Эти настройки будут использоваться для всех списков маркеров"
+
+#: WPDSOptions.class.php:510
+#@ wp-ds-geography
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: WPDSOptions.class.php:518
+#@ wp-ds-geography
+msgid "Columns"
+msgstr "Колонки"
+
+#: WPDSOptions.class.php:511
+#@ wp-ds-geography
+msgid "by name"
+msgstr "по имени"
+
+#: WPDSOptions.class.php:512
+#@ wp-ds-geography
+msgid "by date"
+msgstr "по дате создания"
+
+#: WPDSOptions.class.php:513
+#@ wp-ds-geography
+msgid "by date updated"
+msgstr "по дате обновления"
+
+#: WPDSOptions.class.php:515
+#@ wp-ds-geography
+msgid "by ascending"
+msgstr "по возрастанию"
+
+#: WPDSOptions.class.php:516
+#@ wp-ds-geography
+msgid "by descending"
+msgstr "по убыванию"
+
+#: WPDSOptions.class.php:521
+#@ wp-ds-geography
+msgid "Created date"
+msgstr "Дата создания"
+
+#: WPDSOptions.class.php:522
+#@ wp-ds-geography
+msgid "Modified date"
+msgstr "Дата изменения"
+
+#: WPDSOptions.class.php:524
+#@ wp-ds-geography
+msgid "The maximum number of tokens in the list"
+msgstr "Максимальное число маркеров в списке"
+
+#: WPDSOptions.class.php:368
+#@ wp-ds-geography
+msgid "Settings popup windows."
+msgstr "Настройки всплывающих окон"
+
+#: WPDSOptions.class.php:371
+#@ wp-ds-geography
+msgid "Maximum width of popup window in pixels."
+msgstr "Максимальная ширина всплывающих окон в пикселях."
+
+#: WPDSOptions.class.php:372
+#@ wp-ds-geography
+msgid "Minimum width of popup window in pixels."
+msgstr "Минимальная ширина всплывающих окон в пикселях."
+
+#: WPDSOptions.class.php:373
+#@ wp-ds-geography
+msgid "If set, a scrollable container of a given height in pixels appears inside popup windows."
+msgstr "Если установлено, внутри всплывающих окон создается прокручиваемый контейнер заданной высоты в пикселях."
+
+#: WPDSOptions.class.php:376
+#@ wp-ds-geography
+msgid "Move map if the popup window doesn’t fit when open."
+msgstr "Передвинуть карту, если всплывающему окну при открытии не хватает места."
+
+#: WPDSOptions.class.php:377
+#@ wp-ds-geography
+msgid "Distance in pixels between the popup window and left or right map margin."
+msgstr "Расстояние в пикселях между всплывающем окном и левым или правым краем карты."
+
+#: WPDSOptions.class.php:378
+#@ wp-ds-geography
+msgid "Distance in pixels between the popup window and upper or lower map margin."
+msgstr "Расстояние в пикселях между всплывающем окном и верхним или нижним краем карты."
+
+#: WPDSOptions.class.php:380
+#@ wp-ds-geography
+msgid "Popup window position horizontal shift relative to the marker."
+msgstr "Сдвиг позиции всплывающего окна по горизонтали относительно маркера."
+
+#: WPDSOptions.class.php:381
+#@ wp-ds-geography
+msgid "Popup window position vertical shift relative to the marker."
+msgstr "Сдвиг позиции всплывающего окна по вертикали относительно маркера."
+
+#: WPDSOptions.class.php:374
+#@ wp-ds-geography
+msgid "&quot;Close&quot; button in popup windows"
+msgstr "Кнопка &laquo;Закрыть&raquo; во всплывающих окнах."
+
+#: WPDSOptions.class.php:324
+#: WPDSOptions.class.php:332
+#: WPDSOptions.class.php:355
+#@ wp-ds-geography
+msgid "The name of the map."
+msgstr "Название карты."
+
+#: WPDSOptions.class.php:342
+#@ wp-ds-geography
+msgid "The name of the map. (Roadmap)"
+msgstr "Название карты. (Дороги)"
+
+#: WPDSOptions.class.php:343
+#@ wp-ds-geography
+msgid "The name of the map. (Satellite)"
+msgstr "Название карты. (Спутник)"
+
+#: WPDSOptions.class.php:344
+#@ wp-ds-geography
+msgid "The name of the map. (Hybrid)"
+msgstr "Название карты. (Гибрид)"
+
+#: WPDSOptions.class.php:331
+#: WPDSOptions.class.php:341
+#: WPDSOptions.class.php:354
+#@ wp-ds-geography
+msgid "Use this provider maps."
+msgstr "Использовать этого поставщика карт."
+
+#: WPDSOptions.class.php:333
+#: WPDSOptions.class.php:345
+#: WPDSOptions.class.php:356
+#@ wp-ds-geography
+msgid "API"
+msgstr ""
+
+#: WPDSOptions.class.php:334
+#: WPDSOptions.class.php:347
+#: WPDSOptions.class.php:357
+#@ wp-ds-geography
+msgid "Plugin for Leaflet"
+msgstr "Плагин для Leaflet"
+
+#: WPDSOptions.class.php:346
+#@ wp-ds-geography
+msgid "API key"
+msgstr "API ключ"
+
+#: WPDSOptions.class.php:225
+#@ wp-ds-geography
+msgid "With this option enabled, the map tracks when you pan to another &quot;copy&quot; of the world and seamlessly jumps to the original one so that all overlays like markers and vector layers are still visible."
+msgstr "Если опция активирована, карта отслеживает переход на другую &laquo;копию&raquo; мира, и переводит туда все наложения, в частности маркеры и векторные слои."
+
+#: WPDSOptions.class.php:224
+#@ wp-ds-geography
+msgid "Whether the map be draggable with mouse/touch."
+msgstr "Разрешить перетаскивание карты."
+
+#: WPDSOptions.class.php:223
+#@ wp-ds-geography
+msgid "Draggable maps"
+msgstr "Перетаскивание карты"
+
+#: WPDSOptions.class.php:230
+#@ wp-ds-geography
+msgid "Zoom control"
+msgstr "Управление масштабом"
+
+#: WPDSOptions.class.php:231
+#@ wp-ds-geography
+msgid "Whether the zoom control is added to the map."
+msgstr "Отображать на карте кнопки управления масштабом."
+
+#: WPDSOptions.class.php:232
+#@ wp-ds-geography
+msgid "Whether the map can be zoomed by touch-dragging with two fingers."
+msgstr "Разрешить изменять масштаб карты прикосновением и жестами двумя пальцами."
+
+#: WPDSOptions.class.php:233
+#@ wp-ds-geography
+msgid "Whether the map can be zoomed by using the mouse wheel."
+msgstr "Разрешить изменять масштаб карты колесом прокрутки мыши."
+
+#: WPDSOptions.class.php:235
+#@ wp-ds-geography
+msgid "Whether the map can be zoomed in by double clicking on it and zoomed out by double clicking while holding shift."
+msgstr "Разрешить изменять масштаб карты двойным щелчком мыши."
+
+#: WPDSOptions.class.php:236
+#@ wp-ds-geography
+msgid "Whether the map can be zoomed to a rectangular area specified by dragging the mouse while pressing shift."
+msgstr "Разрешить изменять масштаб карты при помощи выделения прямоугольной области с нажатой клавишей SHIFT."
+
+#: WPDSOptions.class.php:240
+#@ wp-ds-geography
+msgid "Whether the map automatically handles browser window resize to update itself."
+msgstr "Автоматически обновлять карту при изменении размера окна браузера."
+
+#: WPDSOptions.class.php:241
+#@ wp-ds-geography
+msgid "Close pop-up windows when the user clicks on the map."
+msgstr "Закрывать всплывающие окна когда пользователь кликает по карте."
+
+#: WPDSOptions.class.php:245
+#@ wp-ds-geography
+msgid "Keyboard navigation options"
+msgstr "Управление картой с клавиатуры"
+
+#: WPDSOptions.class.php:246
+#@ wp-ds-geography
+msgid "Allows users to navigate the map with keyboard arrows and +/- keys."
+msgstr "Разрешить управление картой при помощи клавиатуры. (Перемещение по карте при помощи стрелок и масштабирование клавишами [+]/[-])"
+
+#: WPDSOptions.class.php:247
+#@ wp-ds-geography
+msgid "Amount of pixels to pan when pressing an arrow key."
+msgstr "Число пикселей для перемещения карты при нажатии стрелки на клавиатуре."
+
+#: WPDSOptions.class.php:248
+#@ wp-ds-geography
+msgid "Number of zoom levels to change when pressing + or - key."
+msgstr "Число уровней масштабирования при нажатии клавиш [+] или [-]."
+
+#: WPDSOptions.class.php:253
+#@ wp-ds-geography
+msgid "Inertia"
+msgstr "Инерция"
+
+#: WPDSOptions.class.php:254
+#@ wp-ds-geography
+msgid "If enabled, panning of the map will have an inertia effect where the map builds momentum while dragging and continues moving in the same direction for some time. Feels especially nice on touch devices."
+msgstr "Если опция активирована, карты получат эффект инрции, при котором карта при перетаскивании продолжает движение в том же направлении в течение некоторого времени. Это особенно приятно использовать на устройствах с сенсорными дисплеями."
+
+#: WPDSOptions.class.php:255
+#@ wp-ds-geography
+msgid "The rate with which the inertial movement slows down, in pixels/second<sup>2</sup>."
+msgstr "Уровень замедления инерционного движения в пикселях/секунду<sup>2</sup>."
+
+#: WPDSOptions.class.php:256
+#@ wp-ds-geography
+msgid "Max speed of the inertial movement, in pixels/second."
+msgstr "Максимальная скорость инерционного движения, в пикселях/сек."
+
+#: WPDSOptions.class.php:261
+#@ wp-ds-geography
+msgid "Graduated scale"
+msgstr "Масштабная линейка"
+
+#: WPDSOptions.class.php:262
+#@ wp-ds-geography
+msgid "Add a graduated scale."
+msgstr "Добавить масштабную линейку."
+
+#: WPDSOptions.class.php:267
+#@ wp-ds-geography
+msgid "Bottom left of the map."
+msgstr "Левый нижний угол карты."
+
+#: WPDSOptions.class.php:268
+#@ wp-ds-geography
+msgid "Bottom right of the map."
+msgstr "Правый нижний угол карты."
+
+#: WPDSOptions.class.php:269
+#@ wp-ds-geography
+msgid "Top right of the map."
+msgstr "Правый верхний угол карты."
+
+#: WPDSOptions.class.php:270
+#@ wp-ds-geography
+msgid "Top left of the map."
+msgstr "Левый верхний угол карты."
+
+#: WPDSOptions.class.php:271
+#@ wp-ds-geography
+msgid "Maximum width of the control in pixels. The width is set dynamically to show round values (e.g. 100, 200, 500)."
+msgstr "Максимальная ширина линейки в пикселях. Ширина устанавливается динамически, чтобы показать округленные данные (например, 100, 200, 500)."
+
+#: WPDSOptions.class.php:272
+#@ wp-ds-geography
+msgid "Whether to show the metric scale line (m/km)."
+msgstr "Линейка в метрической системе измерения (метры/километры)."
+
+#: WPDSOptions.class.php:273
+#@ wp-ds-geography
+msgid "Whether to show the imperial scale line (mi/ft)."
+msgstr "Линейка в имперской системе измерения (мили/футы)."
+
+#: WPDSOptions.class.php:274
+#@ wp-ds-geography
+msgid "If true, the control is updated on moveend, otherwise it&prime;s always up-to-date (updated on move)."
+msgstr "При установке этого параметра обновление значений масштабной линейки будет происходить по окончании монипулаций с картой, иначе значения обновляются постоянно."
+
+#: WPDSOptions.class.php:279
+#@ wp-ds-geography
+msgid "Detection of Retina display"
+msgstr "Обнаружение дисплея Retina"
+
+#: WPDSOptions.class.php:280
+#@ wp-ds-geography
+msgid "Optimize maps for display Retina."
+msgstr "Оптимизировать карты для дисплеев Retina."
+
+#: WPDSOptions.class.php:285
+#@ wp-ds-geography
+msgid "Fullscreen mode"
+msgstr "Полноэкранный режим"
+
+#: WPDSOptions.class.php:286
+#@ wp-ds-geography
+msgid "Add fullscreen button to a maps."
+msgstr "Включить для карт возможность отображения в полноэкранном режиме."
+
+#: WPDSOptions.class.php:291
+#@ wp-ds-geography
+msgid "Marker grouping"
+msgstr "Группировка маркеров"
+
+#: WPDSOptions.class.php:292
+#@ wp-ds-geography
+msgid "Allow grouping of markers."
+msgstr "Разрешить группировку маркеров."
+
+#: WPDSOptions.class.php:294
+#@ wp-ds-geography
+msgid "When you click a cluster we zoom to its bounds."
+msgstr "Если кликнуть по группе, она масштабируется до размера своих границ."
+
+#: WPDSOptions.class.php:295
+#@ wp-ds-geography
+msgid "When you mouse over a cluster it shows the bounds of its markers."
+msgstr "Если навести мышку на группу, можно увидеть границы ее маркеров."
+
+#: WPDSOptions.class.php:296
+#@ wp-ds-geography
+msgid "When you click a cluster at the bottom zoom level we spiderfy it so you can see all of its markers."
+msgstr "Если кликнуть группу на нижнем уровне масштабирования, она раскрывается и можно увидеть все ее маркеры."
+
+#: WPDSOptions.class.php:297
+#@ wp-ds-geography
+msgid "Increase from 1 to increase the distance away from the center that spiderfied markers are placed. Use if you are using big marker icons."
+msgstr "Увеличьте с 1 для увеличения дистанции от центра, который образуют раскрывающиеся маркеры. Используйте эту опцию при больших ярлыках маркеров."
+
+#: WPDSOptions.class.php:298
+#@ wp-ds-geography
+msgid " If set to true, overrides the icon for all added markers to make them appear as a 1 size cluster"
+msgstr "Если установлено, заменяет иконку всех добавленных маркеров, чтобы они были одного размера."
+
+#: WPDSOptions.class.php:306
+#@ wp-ds-geography
+msgid " If set, at this zoom level and below markers will not be clustered."
+msgstr "Если установлено (от 1 до 18, или 19, если поддерживается), на этом и более низком уровне масштабирования маркеры не будут образовывать группы."
+
+#: WPDSOptions.class.php:308
+#@ wp-ds-geography
+msgid "The maximum radius that a cluster will cover from the central marker (in pixels). "
+msgstr "Максимальный радиус, который покроет группа от центрального маркера (в пикселях). Уменьшение этого параметра создаст более мелкие группы."
+
+#: WPDSOptions.class.php:234
+#@ wp-ds-geography
+msgid "Whether the zoom mouse wheel control is added to the map."
+msgstr "Отображать на карте кнопку разрешающую изменять масштаб карты колесом прокрутки мыши."
+
+#: index.php:78
+#: index.php:81
+#: index.php:130
+#@ wp-ds-geography
+msgid "Add map"
+msgstr "Добавить карту"
+
+#: index.php:136
+#@ wp-ds-geography
+msgid "Search:"
+msgstr "Поиск:"
+
+#: index.php:147
+#@ wp-ds-geography
+msgid "Insert map"
+msgstr "Вставить карту"
+
+#: index.php:149
+#@ wp-ds-geography
+msgid "Cancel"
+msgstr "Отмена"
+

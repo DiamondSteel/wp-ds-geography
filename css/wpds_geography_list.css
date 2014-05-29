@@ -1,0 +1,13 @@
+.wpds_list_search{margin: 5px 0 7px 0;}
+.wpds_list_search input{width: 80%; border: 1px solid #AAA; padding: 5px;}
+.wpds_list_container{width: 100%; height: 320px; overflow-y: scroll; background: #FFF; border: 1px solid #CCC;}
+.wpds_list_item{border-bottom: 1px solid #CCC; cursor: pointer;}
+.wpds_list_item:hover{background-color: #FEFFEF;}
+.wpds_list_item_tddate{width: 110px; white-space: nowrap; font-size: small;}
+.wpds_list_item_tdtype{width: 26px; text-align: center; padding-top: 5px; }
+.wpds_list_item_tdname{}
+.wpds_list_item.active{background: #FEFFEF; -webkit-box-shadow: 0 0 10px 2px #D8D8D8; -moz-box-shadow: 0 0 10px 2px #D8D8D8; box-shadow: 0 0 10px 2px #D8D8D8;}
+#wpds_list_result{width: 200px; border: 1px solid #AAA; padding: 5px;}
+.wpds_list_button{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: inset 0 1px 0 #FFF,0 1px 0 rgba(0,0,0,.08); box-shadow: inset 0 1px 0 #FFF,0 1px 0 rgba(0,0,0,.08); -webkit-border-radius: 3px; border-radius: 3px; border-width: 1px; border-style: solid; border-color: #CCC; display: inline-block; height: 28px; margin: 0; padding: 0 10px 1px; color: #555; background: #F7F7F7; vertical-align: top; text-decoration: none; font-size: 13px; line-height: 26px; cursor: pointer; white-space: nowrap;}
+.wpds_list_button:hover{background:#fafafa; border-color:#999; color:#222 }
+.wpds_list_button.hidden{display: none;}
