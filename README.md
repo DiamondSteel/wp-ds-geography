@@ -3,10 +3,27 @@ wp-ds-geography
 
 WP DS Geography, Plugin for Wordpress
 
-Плагин для Wordpress
 Каталог географических точек и местоположений.
+
+== Description ==
+
+Сохраняйте географические координаты, делайте к ним описания, групперуйте их в слои.
+Делитесь интересными местами на страницах своего сайта.
+
+Основные возможности:
+
+* Сохранение точек координат
+* Произвольные маркеры
+* Группировка точек в слои
+* Шорткоды для вставки карт и слоёв на страницы сайта
 
 == Installation ==
 
-1. Upload `wp-ds-geography.zip` to the `/wp-content/plugins/` directory `wp-ds-geography`
-2. Activate the plugin through the `Plugins` menu in WordPress
+1. Распакуйте архив "wp-ds-geography.zip" в папку "/wp-content/plugins/", так чтобы все файлы плагина были доступны по пути "/wp-content/plugins/wp-ds-geography/"
+2. Активируйте плагин на странице управления плагинами в WordPress.
+
+== Changelog ==
+
+= 1.0.0 =
+
+Release
